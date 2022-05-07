@@ -1,0 +1,267 @@
+.txt_animate span {
+  font-size: 25px;
+  color: transparent;
+  opacity: 0;
+  transform: translate(-300px, 0) scale(0);
+  animation: txtE 1.5s infinite;
+}
+
+@keyframes txtE {
+  60% {
+    transform: translate(20px, 0) scale(1);
+    color: red;
+  }
+
+  80% {
+    transform: translate(20px, 0) scale(1);
+    color: orange;
+  }
+
+  90% {
+    transform: translate(0) scale(1.2);
+    color: yellow;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+    color: green;
+  }
+}
+.txt_animate span:nth-of-type(2) {
+  animation-delay: 0.05s;
+}
+.txt_animate span:nth-of-type(3) {
+  animation-delay: 0.1s;
+}
+.txt_animate span:nth-of-type(4) {
+  animation-delay: 0.15s;
+}
+.txt_animate span:nth-of-type(5) {
+  animation-delay: 0.2s;
+}
+.txt_animate span:nth-of-type(6) {
+  animation-delay: 0.25s;
+}
+
+.txt span {
+  position: relative;
+  display: inline-block;
+  padding-top: 40px;
+  letter-spacing: -0.8px;
+  animation: txtup 1.5s infinite;
+  -webkit-animation: txtup 1.5s infinite;
+  -ms-animation: txtup 1.5s infinite;
+  -moz-animation: txtup 1.5s infinite;
+}
+.txt span:nth-of-type(1) {
+  animation-delay: 0.1s;
+}
+.txt span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+.txt span:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+.txt span:nth-of-type(4) {
+  animation-delay: 0.4s;
+}
+.txt span:nth-of-type(5) {
+  animation-delay: 0.5s;
+}
+.txt span:nth-of-type(6) {
+  animation-delay: 0.6s;
+}
+.txt span:nth-of-type(7) {
+  animation-delay: 0.7s;
+}
+.txt span:nth-of-type(8) {
+  animation-delay: 0.8s;
+}
+.txt span:nth-of-type(9) {
+  animation-delay: 0.9s;
+}
+.txt span:nth-of-type(10) {
+  animation-delay: 1s;
+}
+.txt span:nth-of-type(11) {
+  animation-delay: 1.1s;
+}
+.txt span:nth-of-type(12) {
+  animation-delay: 1.2s;
+}
+.txt span:nth-of-type(13) {
+  animation-delay: 1.3s;
+}
+.txt span:nth-of-type(14) {
+  animation-delay: 1.4s;
+}
+.txt span:nth-of-type(15) {
+  animation-delay: 1.5s;
+}
+.txt span:nth-of-type(16) {
+  animation-delay: 1.6s;
+}
+.txt span:nth-of-type(17) {
+  animation-delay: 1.7s;
+}
+@-webkit-keyframes txtup {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -100.5rem;
+  }
+  40% {
+    top: 0;
+  }
+  60% {
+    top: 0;
+  }
+  80% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes txtup {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -100.5rem;
+  }
+  40% {
+    top: 0;
+  }
+  60% {
+    top: 0;
+  }
+  80% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+h1 {
+  font-size: 20px;
+  min-width: 11px;
+  white-space: nowrap;
+  margin: 0;
+  position: fixed;
+  color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1::before {
+  content: "INFJ:지나가던 사람언니";
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 0, 0);
+  overflow: hidden;
+  /* border-right: 1px solid black; */
+  animation: typing 5s steps(31) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@font-face {
+  font-family: "SangSangYoungestDaughter";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SangSangYoungestDaughter.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BMEuljirooraeorae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/BMEuljirooraeorae.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SSVeryBadHandwriting";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SSVeryBadHandwriting.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SSFaithfulnessOTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SSFaithfulnessOTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HSGyeoulNoonkott20";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HSGyeoulNoonkott20.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vitro_core";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KOHIBaeumOTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "-KITA-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/-KITA-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "YdestreetB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HSGyeoulNoonkott20";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HSGyeoulNoonkott20.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HSGyoulnoonkot";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSGyoulnoonkot.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
